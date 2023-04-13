@@ -1,0 +1,20 @@
+1.declare variables & use as shortcut to element ids in html
+2.create empty array = to answers
+3.create event listener to listen for click & call getAnswer function
+4.call askQuestion function & pass it the argument of  0 (initial setting for question number parameter defined in function)  
+5.displays the answer div
+6.length of answers array determines question asked
+7.matches the case in the switch & outputs the question & waits for the input
+8.creates a variable cleanInput to store the input after it has been converted to uppercase.
+9.uses push method on answer array to add cleanInput value to end of the array
+10. resets input field to empty
+11. calls continueStory function and passes the last index into it
+12. we enter the switch statement and based on the argument passed into the function (last index of answers array)
+13.it chooses the correct case, checks the condition
+14. sets the story div to display the correct answer div which was hidden using css upto this point and also asks the relevant question pulled from the askQuestion function
+15. then breaks from the switch
+16. we then need to enter input in response to the question
+17.we then cycle through the getAnswer function again cleaning input pushing to array & calling the continueStory function while passing it the last index from array as an argument
+18. which chooses the correct div to display based on the array value and also outputs the next question
+19. you input answer and it cycles the getAnswer function, calls the continueStory funtion, & displays the correct story in the story div and this time calls theEnd() function
+20. The function outputs the end paragraph to end the story, clears the question div & hides the answer div
