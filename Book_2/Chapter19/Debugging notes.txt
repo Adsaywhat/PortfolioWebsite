@@ -1,0 +1,38 @@
+1. create days of the week array and set it = days variable
+2. create weather types array and set it = weather variable
+3. create maxTemp variable = 100
+4. create minTemp variable = 0
+5. create lemonadeCost variable = 0.5
+6. create empty array = dailyTemp
+
+
+7. call generateWeather function
+8. weatherToday and tempToday variables are created but not assigned
+9. enter into for loop with counter i set to 0 and condition is that loop will run for as long as counter i is < the length of the days array which is 5.
+10. calculate a random number not greater than the length of weather array and assign value to eatherToday variable
+11. calculate a random number not greater than the range from minTemp value to maxTemp value and assign result to tempToday variable.
+12. tempToday value is stored in the empty dailyTemp array
+13. a div with id of the current days index value and also the weatherToday is added as class to style the div it is created in html in 5Dayweather div. this gets output in browser.
+14. i is incremented and loop runs again until i = length of days array
+
+
+15. eventlistener  waits for user input and click event 
+
+
+16. after input is added it jumps into openTheStand function
+17. variables are created and set to 0
+
+18. we call the resetForm function from within openTheStand function which resets the input fields
+
+19. input value is changed from string to number using number method and assigned to variables
+20. we enter the for loop condition to run until  counter < days array length
+21. dailyTemp index that is corresponding to i counter is divided by the value of glassPrice that we got from user input and   whole number result is assigned to glassesSold variable
+22. numGlasses value is subtracted from totalGlasses which 0 at the moment and result is assigned to glassesLeft
+23. if statement checks if glasses sold is greater than glasses left with the aim of setting glassesSold = glassesLeft if it is
+24. in this case it skips and does the next calculation of adding glassesSold to totalGlasses and assigning the new value to totalGlasses
+25. dailyTotal is then output to HTML based on the result of that cycle through loop then  counter updated, condition  is checked loops again until condition is met.
+
+26. when loop breaks displayResults funtion is called with 3 arguments passed
+27.calculations are done using the arguments & other variables and results are assigned to new variables
+
+28. A detailed weekly report is printed to HTML using these variables
